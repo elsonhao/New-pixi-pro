@@ -12,6 +12,13 @@
 		AF2B41371F1A271300247256 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF2B41351F1A271300247256 /* Main.storyboard */; };
 		AF2B41391F1A271300247256 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF2B41381F1A271300247256 /* Assets.xcassets */; };
 		AF2B413C1F1A271300247256 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF2B413A1F1A271300247256 /* LaunchScreen.storyboard */; };
+		AF2B414F1F1A292900247256 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF2B414B1F1A292900247256 /* Bolts.framework */; };
+		AF2B41501F1A292900247256 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF2B414C1F1A292900247256 /* FBSDKCoreKit.framework */; };
+		AF2B41511F1A292900247256 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF2B414D1F1A292900247256 /* FBSDKLoginKit.framework */; };
+		AF2B41521F1A292900247256 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF2B414E1F1A292900247256 /* FBSDKShareKit.framework */; };
+		AFB70E401F1B33D900B7FA33 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = AFB70E3E1F1B33D900B7FA33 /* background.png */; };
+		AFB70E411F1B33D900B7FA33 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = AFB70E3F1F1B33D900B7FA33 /* bar.png */; };
+		AFB70E431F1B343100B7FA33 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB70E421F1B343100B7FA33 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,14 @@
 		AF2B41381F1A271300247256 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF2B413B1F1A271300247256 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF2B413D1F1A271300247256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF2B414B1F1A292900247256 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		AF2B414C1F1A292900247256 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		AF2B414D1F1A292900247256 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		AF2B414E1F1A292900247256 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		AFB70E3E1F1B33D900B7FA33 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		AFB70E3F1F1B33D900B7FA33 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		AFB70E421F1B343100B7FA33 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AFB70E441F1B476200B7FA33 /* New pixi pro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "New pixi pro.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +44,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF2B41521F1A292900247256 /* FBSDKShareKit.framework in Frameworks */,
+				AF2B414F1F1A292900247256 /* Bolts.framework in Frameworks */,
+				AF2B41501F1A292900247256 /* FBSDKCoreKit.framework in Frameworks */,
+				AF2B41511F1A292900247256 /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +57,10 @@
 		AF2B41251F1A271300247256 = {
 			isa = PBXGroup;
 			children = (
+				AF2B414B1F1A292900247256 /* Bolts.framework */,
+				AF2B414C1F1A292900247256 /* FBSDKCoreKit.framework */,
+				AF2B414D1F1A292900247256 /* FBSDKLoginKit.framework */,
+				AF2B414E1F1A292900247256 /* FBSDKShareKit.framework */,
 				AF2B41301F1A271300247256 /* New pixi pro */,
 				AF2B412F1F1A271300247256 /* Products */,
 			);
@@ -54,14 +77,26 @@
 		AF2B41301F1A271300247256 /* New pixi pro */ = {
 			isa = PBXGroup;
 			children = (
+				AFB70E441F1B476200B7FA33 /* New pixi pro.entitlements */,
+				AFB70E3D1F1B337F00B7FA33 /* images */,
 				AF2B41311F1A271300247256 /* AppDelegate.swift */,
 				AF2B41331F1A271300247256 /* ViewController.swift */,
 				AF2B41351F1A271300247256 /* Main.storyboard */,
 				AF2B41381F1A271300247256 /* Assets.xcassets */,
 				AF2B413A1F1A271300247256 /* LaunchScreen.storyboard */,
 				AF2B413D1F1A271300247256 /* Info.plist */,
+				AFB70E421F1B343100B7FA33 /* HomeViewController.swift */,
 			);
 			path = "New pixi pro";
+			sourceTree = "<group>";
+		};
+		AFB70E3D1F1B337F00B7FA33 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				AFB70E3E1F1B33D900B7FA33 /* background.png */,
+				AFB70E3F1F1B33D900B7FA33 /* bar.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,6 +133,11 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = U55RL8468U;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -125,6 +165,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF2B413C1F1A271300247256 /* LaunchScreen.storyboard in Resources */,
+				AFB70E411F1B33D900B7FA33 /* bar.png in Resources */,
+				AFB70E401F1B33D900B7FA33 /* background.png in Resources */,
 				AF2B41391F1A271300247256 /* Assets.xcassets in Resources */,
 				AF2B41371F1A271300247256 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +181,7 @@
 			files = (
 				AF2B41341F1A271300247256 /* ViewController.swift in Sources */,
 				AF2B41321F1A271300247256 /* AppDelegate.swift in Sources */,
+				AFB70E431F1B343100B7FA33 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +303,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = U55RL8468U;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/New\\ pixi\\ pro",
+					"$(PROJECT_DIR)/New\\ pixi\\ pro",
+					"$(PROJECT_DIR)/New\\ pixi\\ pro",
+					"$(PROJECT_DIR)/New\\ pixi\\ pro",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "New pixi pro/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.elson.New-pixi-pro";
@@ -273,6 +324,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = U55RL8468U;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/New\\ pixi\\ pro",
+					"$(PROJECT_DIR)/New\\ pixi\\ pro",
+					"$(PROJECT_DIR)/New\\ pixi\\ pro",
+					"$(PROJECT_DIR)/New\\ pixi\\ pro",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "New pixi pro/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.elson.New-pixi-pro";
@@ -300,6 +359,7 @@
 				AF2B41421F1A271300247256 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
